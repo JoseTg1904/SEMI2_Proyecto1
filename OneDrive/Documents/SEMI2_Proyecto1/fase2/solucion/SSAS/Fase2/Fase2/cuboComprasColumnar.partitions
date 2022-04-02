@@ -1,0 +1,105 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="27519f17-21d1-4782-83d4-dd1c21df0c58" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>VistaColumnar</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Compras</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="59a67bbf-54bf-4d6d-95db-e18f386c21e6">
+          <ID>Compras</ID>
+          <Name>Compras</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="20854ab8-6c22-4e47-a489-329e6ffbf374">
+            <DataSourceViewID>Seminario2 Columnar 201700965</DataSourceViewID>
+            <TableID>dbo_Compras</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Proveedores</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="d899529b-db06-47f8-a2e2-d2893ce58b65">
+          <ID>Proveedores</ID>
+          <Name>Proveedores</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="daa8c7a1-8dae-49f7-95a3-89eb8452430b">
+            <DataSourceViewID>Seminario2 Columnar 201700965</DataSourceViewID>
+            <TableID>dbo_Proveedores</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Sucursales</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="95a61a60-6e52-43be-8e4b-eafe89bceb3c">
+          <ID>Sucursales</ID>
+          <Name>Sucursales</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="7eeb3762-023d-496d-8358-0a3397856399">
+            <DataSourceViewID>Seminario2 Columnar 201700965</DataSourceViewID>
+            <TableID>dbo_Sucursales</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Tiempos</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="0e140d96-53a2-41db-855f-a64d25295951">
+          <ID>Tiempos</ID>
+          <Name>Tiempos</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="985e2c64-b689-47bb-bbbd-139e03225022">
+            <DataSourceViewID>Seminario2 Columnar 201700965</DataSourceViewID>
+            <TableID>dbo_Tiempos</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Productos</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="d425a5b7-d400-4117-b1c8-8128999a28e5">
+          <ID>Productos</ID>
+          <Name>Productos</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="35838598-9bf6-4639-959a-184a79fda8e4">
+            <DataSourceViewID>Seminario2 Columnar 201700965</DataSourceViewID>
+            <TableID>dbo_Productos</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

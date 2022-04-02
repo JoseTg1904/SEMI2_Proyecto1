@@ -11,384 +11,11 @@
   DTS:LocaleID="4106"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="61"
-  DTS:VersionGUID="{21AE8E00-8802-493A-8008-216F53BA6DCE}">
+  DTS:VersionBuild="64"
+  DTS:VersionGUID="{4D357F0F-553B-4FF3-8915-C1374C09E07E}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[archivoDeCompras]"
-      DTS:CreationName="FLATFILE"
-      DTS:DTSID="{90AAE792-13D1-4448-B03A-948C238DA646}"
-      DTS:ObjectName="archivoDeCompras">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:Format="Delimited"
-          DTS:LocaleID="4106"
-          DTS:HeaderRowDelimiter="_x007C_"
-          DTS:ColumnNamesInFirstDataRow="True"
-          DTS:RowDelimiter=""
-          DTS:TextQualifier="_x003C_none_x003E_"
-          DTS:CodePage="65001"
-          DTS:ConnectionString="C:\Users\chepe\OneDrive\Documents\SEMI2_Proyecto1\fase1\archivosDeEntrada\OSolution01.cp">
-          <DTS:FlatFileColumns>
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="10"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Fecha"
-              DTS:DTSID="{381666AB-37DB-4770-A833-DC3616F838EB}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="256"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="CodProveedor"
-              DTS:DTSID="{A0A14FAD-D41E-4181-B5AB-26993F98CDDE}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="256"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="NombreProveedor"
-              DTS:DTSID="{89126F1E-0D1B-420E-B3BF-4D6A3B35E42E}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="256"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="DireccionProveedor"
-              DTS:DTSID="{6963C314-6EAC-47A9-A496-16B13A28A187}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="256"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="NumeroProveedor"
-              DTS:DTSID="{0DAC861E-58A9-4111-9E58-219D6F2F33FE}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="256"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="WebProveedor"
-              DTS:DTSID="{80D88101-2C50-42CD-BB85-ECA6AB8F0B86}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="256"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="CodProducto"
-              DTS:DTSID="{D07DD4DB-CDFB-4259-AE4B-E07175896BBF}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="256"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="NombreProducto"
-              DTS:DTSID="{D08D6C0A-26CE-436E-8DBC-07FA3CC2CD20}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="256"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="MarcaProducto"
-              DTS:DTSID="{77A88D69-248C-4BDD-A8CB-51D8083C14D1}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="256"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Categoria"
-              DTS:DTSID="{9FF7563F-8CC6-4E49-9CE0-95512240DE6A}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="256"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="CodSucursal"
-              DTS:DTSID="{E3BAA29D-96CC-45B5-88D5-B73530CAF5C7}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="256"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="NombreSucursal"
-              DTS:DTSID="{8649E84A-7160-4B79-A090-D3C1914D0552}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="256"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="DireccionSucursal"
-              DTS:DTSID="{A0094168-81C5-41DC-AAAC-C7C29C7797DC}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="256"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Region"
-              DTS:DTSID="{E7BE6E3A-DE21-4529-8FA4-620809CD9F61}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="256"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Departamento"
-              DTS:DTSID="{C3EE83BA-DEFE-429A-9A2C-8EF8322451C3}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="256"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Unidades"
-              DTS:DTSID="{C9DF75F7-FF09-4FE8-940E-BA4AFEEF0A14}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:MaximumWidth="256"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="CostoU"
-              DTS:DTSID="{CBDD8F52-9E24-4974-8C2B-4ECA357AD003}"
-              DTS:CreationName="" />
-          </DTS:FlatFileColumns>
-        </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[archivoDeVentas]"
-      DTS:CreationName="FLATFILE"
-      DTS:DTSID="{17E4B985-AD59-4B39-A136-9DC110E57096}"
-      DTS:ObjectName="archivoDeVentas">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:Format="Delimited"
-          DTS:LocaleID="4106"
-          DTS:HeaderRowDelimiter="_x007C_"
-          DTS:ColumnNamesInFirstDataRow="True"
-          DTS:RowDelimiter=""
-          DTS:TextQualifier="_x003C_none_x003E_"
-          DTS:CodePage="65001"
-          DTS:ConnectionString="C:\Users\chepe\OneDrive\Documents\SEMI2_Proyecto1\fase1\archivosDeEntrada\OSolution01.vt">
-          <DTS:FlatFileColumns>
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="512"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Fecha"
-              DTS:DTSID="{4DE3AE69-D6BB-4203-8FAE-B3178E4B7A1F}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="512"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="CodigoCliente"
-              DTS:DTSID="{2272C88F-69C9-4075-9913-2D659C76AB8C}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="512"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="NombreCliente"
-              DTS:DTSID="{F2B79481-EEB5-4699-8137-9A8ECDA03ED2}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="512"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="TipoCliente"
-              DTS:DTSID="{F15EB3F5-BB1F-42E5-99AF-949CCD6D8438}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="512"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="DireccionCliente"
-              DTS:DTSID="{AEFAA9D1-DFD4-4D04-AB89-664AD4B7A083}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="512"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="NumeroCliente"
-              DTS:DTSID="{8BE6D5BF-3B27-4A95-B24A-C931B8679F65}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="512"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="CodVendedor"
-              DTS:DTSID="{0B946F7B-7D24-4E2E-A83E-C9475EC39E7B}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="512"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="NombreVendedor"
-              DTS:DTSID="{F250DA46-A347-4DB6-93B0-DEA734B0448C}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="512"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Vacacionista"
-              DTS:DTSID="{0231D1B5-FEA5-401D-9D65-7D7EE264F004}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="512"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="CodProducto"
-              DTS:DTSID="{0A053113-51AE-4E01-A158-28E068AA87EF}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="512"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="NombreProducto"
-              DTS:DTSID="{5CF66ADC-A5DD-487C-A12F-B4F3F9300135}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="512"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="MarcaProducto"
-              DTS:DTSID="{EEEF3984-97B5-466B-8115-0ECB034CD9B3}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="512"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Categoria"
-              DTS:DTSID="{7BF767B4-89D9-42D5-B0D7-47C2D02A16DA}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="512"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="SodSuSursal"
-              DTS:DTSID="{B1E0BA89-A2FE-49CD-B72E-9053063FFA0E}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="512"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="NombreSucursal"
-              DTS:DTSID="{E1346ED7-E572-4854-8E98-C45F75301060}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="512"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="DireccionSucursal"
-              DTS:DTSID="{0BDC4BD2-3F03-4A7B-8E06-D9CD8DBDC4B6}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="512"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Region"
-              DTS:DTSID="{37FFD71F-894D-4279-8F54-8DB02B185308}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="512"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Departamento"
-              DTS:DTSID="{13711B3C-B2A3-43E3-9B12-7ABD9397BF43}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x007C_"
-              DTS:MaximumWidth="512"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Unidades"
-              DTS:DTSID="{C2EAA99D-8011-49BC-9B0F-F88A998DCD1F}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:MaximumWidth="512"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="PrecioUnitario"
-              DTS:DTSID="{CAED41CB-2338-40BD-A7F8-9C0D27636A44}"
-              DTS:CreationName="" />
-          </DTS:FlatFileColumns>
-        </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[LocalHost.proyecto1Semi2]"
       DTS:CreationName="OLEDB"
@@ -4036,6 +3663,96 @@
                   exclusionGroup="1"
                   name="Derived Column Output"
                   synchronousInputId="Package\Carga de dimension tiempos\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Carga de dimension tiempos\Derived Column.Outputs[Derived Column Output].Columns[anio]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Carga de dimension tiempos\Derived Column.Outputs[Derived Column Output].Columns[anio]"
+                      name="anio"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">[YEAR]((DT_DBDATE)[TRIM](#{Package\Carga de dimension tiempos\Sort.Outputs[Sort Output].Columns[fecha]}))</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">YEAR((DT_DBDATE)TRIM(fecha))</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga de dimension tiempos\Derived Column.Outputs[Derived Column Output].Columns[mes]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Carga de dimension tiempos\Derived Column.Outputs[Derived Column Output].Columns[mes]"
+                      name="mes"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">[MONTH]((DT_DBDATE)[TRIM](#{Package\Carga de dimension tiempos\Sort.Outputs[Sort Output].Columns[fecha]}))</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">MONTH((DT_DBDATE)TRIM(fecha))</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga de dimension tiempos\Derived Column.Outputs[Derived Column Output].Columns[dia]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Carga de dimension tiempos\Derived Column.Outputs[Derived Column Output].Columns[dia]"
+                      name="dia"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">[DAY]((DT_DBDATE)[TRIM](#{Package\Carga de dimension tiempos\Sort.Outputs[Sort Output].Columns[fecha]}))</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">DAY((DT_DBDATE)TRIM(fecha))</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Carga de dimension tiempos\Derived Column.Outputs[Derived Column Output].Columns[semestre]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Carga de dimension tiempos\Derived Column.Outputs[Derived Column Output].Columns[semestre]"
+                      name="semestre"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">([MONTH]((DT_DBDATE)[TRIM](#{Package\Carga de dimension tiempos\Sort.Outputs[Sort Output].Columns[fecha]})) &gt;= 1 &amp;&amp; [MONTH]((DT_DBDATE)[TRIM](#{Package\Carga de dimension tiempos\Sort.Outputs[Sort Output].Columns[fecha]})) &lt;= 6) ? 1 : 2</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(MONTH((DT_DBDATE)TRIM(fecha)) &gt;= 1 &amp;&amp; MONTH((DT_DBDATE)TRIM(fecha)) &lt;= 6) ? 1 : 2</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
                   <externalMetadataColumns />
                 </output>
                 <output
@@ -4578,6 +4295,30 @@
                       cachedSortKeyPosition="1"
                       externalMetadataColumnId="Package\Carga de dimension tiempos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[fecha]"
                       lineageId="Package\Carga de dimension tiempos\Sort.Outputs[Sort Output].Columns[fecha]" />
+                    <inputColumn
+                      refId="Package\Carga de dimension tiempos\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[anio]"
+                      cachedDataType="i4"
+                      cachedName="anio"
+                      externalMetadataColumnId="Package\Carga de dimension tiempos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[anio]"
+                      lineageId="Package\Carga de dimension tiempos\Derived Column.Outputs[Derived Column Output].Columns[anio]" />
+                    <inputColumn
+                      refId="Package\Carga de dimension tiempos\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[mes]"
+                      cachedDataType="i4"
+                      cachedName="mes"
+                      externalMetadataColumnId="Package\Carga de dimension tiempos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[mes]"
+                      lineageId="Package\Carga de dimension tiempos\Derived Column.Outputs[Derived Column Output].Columns[mes]" />
+                    <inputColumn
+                      refId="Package\Carga de dimension tiempos\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[dia]"
+                      cachedDataType="i4"
+                      cachedName="dia"
+                      externalMetadataColumnId="Package\Carga de dimension tiempos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[dia]"
+                      lineageId="Package\Carga de dimension tiempos\Derived Column.Outputs[Derived Column Output].Columns[dia]" />
+                    <inputColumn
+                      refId="Package\Carga de dimension tiempos\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[semestre]"
+                      cachedDataType="i4"
+                      cachedName="semestre"
+                      externalMetadataColumnId="Package\Carga de dimension tiempos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[semestre]"
+                      lineageId="Package\Carga de dimension tiempos\Derived Column.Outputs[Derived Column Output].Columns[semestre]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -4589,6 +4330,22 @@
                       refId="Package\Carga de dimension tiempos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[fecha]"
                       dataType="dbDate"
                       name="fecha" />
+                    <externalMetadataColumn
+                      refId="Package\Carga de dimension tiempos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[anio]"
+                      dataType="i4"
+                      name="anio" />
+                    <externalMetadataColumn
+                      refId="Package\Carga de dimension tiempos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[semestre]"
+                      dataType="i4"
+                      name="semestre" />
+                    <externalMetadataColumn
+                      refId="Package\Carga de dimension tiempos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[mes]"
+                      dataType="i4"
+                      name="mes" />
+                    <externalMetadataColumn
+                      refId="Package\Carga de dimension tiempos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[dia]"
+                      dataType="i4"
+                      name="dia" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -11776,7 +11533,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11810,7 +11569,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11844,7 +11605,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11878,7 +11641,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11965,6 +11730,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="176,42"
+          Id="Package\Carga de dimension proveedores\obtencion proveedor"
+          TopLeft="60,36" />
+        <NodeLayout
+          Size="155,42"
+          Id="Package\Carga de dimension proveedores\Conditional Split"
+          TopLeft="12,125" />
+        <NodeLayout
           Size="152,42"
           Id="Package\Carga de dimension proveedores\conversion web"
           TopLeft="185,177" />
@@ -11977,13 +11750,39 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
           Id="Package\Carga de dimension proveedores\eliminacion de repetidos"
           TopLeft="476,202" />
         <NodeLayout
-          Size="176,42"
-          Id="Package\Carga de dimension proveedores\obtencion proveedor"
-          TopLeft="60,36" />
-        <NodeLayout
           Size="166,42"
           Id="Package\Carga de dimension proveedores\carga proveedores"
           TopLeft="246,248" />
+        <EdgeLayout
+          Id="Package\Carga de dimension proveedores.Paths[webValida]"
+          TopLeft="167,146">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="70,31"
+              Start="0,0"
+              End="70,23.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="66,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="66,0"
+                    Point2="70,0"
+                    Point3="70,4" />
+                  <mssgle:LineSegment
+                    End="70,23.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="46.99123046875,-15.7490234375,46.0175390625,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga de dimension proveedores.Paths[Sort Output]"
           TopLeft="476,223">
@@ -12010,6 +11809,40 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
                     Point3="-36,46" />
                   <mssgle:LineSegment
                     End="-56.5,46" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga de dimension proveedores.Paths[OLE DB Source Output]"
+          TopLeft="148,78">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-58.5,47"
+              Start="0,0"
+              End="-58.5,39.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,19.5"
+                    Point2="0,23.5"
+                    Point3="-4,23.5" />
+                  <mssgle:LineSegment
+                    End="-54.5,23.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-54.5,23.5"
+                    Point2="-58.5,23.5"
+                    Point3="-58.5,27.5" />
+                  <mssgle:LineSegment
+                    End="-58.5,39.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12085,74 +11918,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
               BoundingBox="17.0299283854167,42.2784398699892,58.7734765625,11.6630859375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="155,42"
-          Id="Package\Carga de dimension proveedores\Conditional Split"
-          TopLeft="12,125" />
-        <EdgeLayout
-          Id="Package\Carga de dimension proveedores.Paths[OLE DB Source Output]"
-          TopLeft="148,78">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-58.5,47"
-              Start="0,0"
-              End="-58.5,39.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,19.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,19.5"
-                    Point2="0,23.5"
-                    Point3="-4,23.5" />
-                  <mssgle:LineSegment
-                    End="-54.5,23.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-54.5,23.5"
-                    Point2="-58.5,23.5"
-                    Point3="-58.5,27.5" />
-                  <mssgle:LineSegment
-                    End="-58.5,39.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga de dimension proveedores.Paths[webValida]"
-          TopLeft="167,146">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="70,31"
-              Start="0,0"
-              End="70,23.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="66,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="66,0"
-                    Point2="70,0"
-                    Point3="70,4" />
-                  <mssgle:LineSegment
-                    End="70,23.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="46.99123046875,-15.7490234375,46.0175390625,9.7490234375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -12233,7 +11998,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12267,7 +12034,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12301,7 +12070,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12335,7 +12106,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12428,7 +12201,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
         <NodeLayout
           Size="154,42"
           Id="Package\Carga de dimension tiempos\Derived Column"
-          TopLeft="271,246" />
+          TopLeft="244,272" />
         <NodeLayout
           Size="98,42"
           Id="Package\Carga de dimension tiempos\Sort"
@@ -12461,26 +12234,26 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="144.666666666667,31"
+              EndConnector="142,57"
               Start="0,0"
-              End="144.666666666667,23.5">
+              End="142,49.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,14.4087403598972" />
+                    End="0,24.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,14.4087403598972"
-                    Point2="0,18.4087403598972"
-                    Point3="4,18.4087403598972" />
+                    Point1="0,24.5"
+                    Point2="0,28.5"
+                    Point3="4,28.5" />
                   <mssgle:LineSegment
-                    End="140.666666666667,18.4087403598972" />
+                    End="138,28.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="140.666666666667,18.4087403598972"
-                    Point2="144.666666666667,18.4087403598972"
-                    Point3="144.666666666667,22.4087403598972" />
+                    Point1="138,28.5"
+                    Point2="142,28.5"
+                    Point3="142,32.5" />
                   <mssgle:LineSegment
-                    End="144.666666666667,23.5" />
+                    End="142,49.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12559,30 +12332,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga de dimension tiempos.Paths[Derived Column Output]"
-          TopLeft="372.333333333333,246">
+          TopLeft="345.333333333333,272">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="157.166666666667,-94"
+              EndConnector="184.166666666667,-120"
               Start="0,0"
-              End="157.166666666667,-86.5">
+              End="184.166666666667,-112.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-34.1799485861183" />
+                    End="0,-44.7403598971723" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,-34.1799485861183"
-                    Point2="0,-38.1799485861183"
-                    Point3="4,-38.1799485861183" />
+                    Point1="0,-44.7403598971723"
+                    Point2="0,-48.7403598971723"
+                    Point3="4,-48.7403598971723" />
                   <mssgle:LineSegment
-                    End="153.166666666667,-38.1799485861183" />
+                    End="180.166666666667,-48.7403598971723" />
                   <mssgle:CubicBezierSegment
-                    Point1="153.166666666667,-38.1799485861183"
-                    Point2="157.166666666667,-38.1799485861183"
-                    Point3="157.166666666667,-42.1799485861183" />
+                    Point1="180.166666666667,-48.7403598971723"
+                    Point2="184.166666666667,-48.7403598971723"
+                    Point3="184.166666666667,-52.7403598971723" />
                   <mssgle:LineSegment
-                    End="157.166666666667,-86.5" />
+                    End="184.166666666667,-112.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12693,7 +12466,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12751,7 +12526,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12917,7 +12694,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -12929,7 +12708,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -12978,7 +12757,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -13001,7 +12780,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -13024,7 +12803,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -13034,7 +12813,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -13381,7 +13160,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -13417,7 +13196,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -13453,7 +13232,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -13476,7 +13255,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -13499,7 +13278,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>

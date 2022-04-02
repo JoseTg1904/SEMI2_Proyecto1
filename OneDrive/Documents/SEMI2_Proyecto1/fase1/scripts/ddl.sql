@@ -108,8 +108,12 @@ CREATE TABLE dbo.Proveedores (
 GO
 
 CREATE TABLE dbo.Tiempos (
-    tiempo INT  NOT NULL IDENTITY,
-    fecha  DATE NOT NULL,
+    tiempo   INT  NOT NULL IDENTITY,
+    anio     INT  NOT NULL,
+    semestre INT  NOT NULL,
+    mes      INT  NOT NULL,
+    dia      INT  NOT NULL,
+    fecha    DATE NOT NULL,
     PRIMARY KEY (tiempo)
 ) ON [PRIMARY]
 GO
